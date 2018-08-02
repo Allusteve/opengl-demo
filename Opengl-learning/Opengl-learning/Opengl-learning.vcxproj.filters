@@ -15,10 +15,13 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
     <ClCompile Include="源.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\OGLPG-9th-Edition\lib\gl3w.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\OGLPG-9th-Edition\lib\LoadShaders.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

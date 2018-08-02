@@ -27,10 +27,10 @@ float sample(float x, float y) {
 	return s;
 }
 
-int main() {
-	unsigned char *p = img;
-	for (int y = 0; y < H; y++)
-		for (int x = 0; x < W; x++, p += 3)
-			p[0] = p[1] = p[2] = (unsigned char)((1.0f - sample(x, y)) * 255);
-	svpng(fopen("D:\\graphic-Learn\\line_sampling.png", "wb"), W, H, img, 0);
-}
+//int main() {
+//	unsigned char *p = img;
+//	for (int y = 0; y < H; y++)
+//		for (int x = 0; x < W; x++, p += 3)
+//			p[0] = p[1] = p[2] = (unsigned char)((1.0f - sample(x, y)) * 255);
+//	svpng(fopen("D:\\graphic-Learn\\line_sampling.png", "wb"), W, H, img, 0);
+//}
