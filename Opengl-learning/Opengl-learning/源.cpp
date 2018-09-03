@@ -42,7 +42,7 @@ init(void)
 	GLuint program = LoadShaders(shaders);
 	glUseProgram(program);
 
-	glVertexAttribPointer(vPosition, 2, GL_FLOAT,
+	glVertexAttribPointer(vPosition, 2, GL_FLOAT,          //将顶点属性数组和vshader的in变量关联起来
 		GL_FALSE, 0, BUFFER_OFFSET(0));
 	glEnableVertexAttribArray(vPosition);
 }

@@ -15,13 +15,28 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="源.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="D:\OGLPG-9th-Edition\lib\gl3w.c">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="D:\OGLPG-9th-Edition\lib\LoadShaders.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\OGLPG-9th-Edition\lib\vermilion.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\OGLPG-9th-Edition\lib\vbm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\OGLPG-9th-Edition\lib\targa.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\OGLPG-9th-Edition\lib\loadtexture.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\OGLPG-9th-Edition\lib\vdds.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Stencil-demo.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

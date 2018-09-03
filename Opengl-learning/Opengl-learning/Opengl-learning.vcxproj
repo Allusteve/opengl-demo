@@ -21,7 +21,12 @@
   <ItemGroup>
     <ClCompile Include="D:\OGLPG-9th-Edition\lib\gl3w.c" />
     <ClCompile Include="D:\OGLPG-9th-Edition\lib\LoadShaders.cpp" />
-    <ClCompile Include="源.cpp" />
+    <ClCompile Include="D:\OGLPG-9th-Edition\lib\loadtexture.cpp" />
+    <ClCompile Include="D:\OGLPG-9th-Edition\lib\targa.cpp" />
+    <ClCompile Include="D:\OGLPG-9th-Edition\lib\vbm.cpp" />
+    <ClCompile Include="D:\OGLPG-9th-Edition\lib\vdds.cpp" />
+    <ClCompile Include="D:\OGLPG-9th-Edition\lib\vermilion.cpp" />
+    <ClCompile Include="Stencil-demo.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
@@ -90,7 +95,7 @@
     <Link>
       <AdditionalDependencies>glfw3.lib;opengl32.lib;glew32s.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalLibraryDirectories>D:\glfw-3.2.1.bin.WIN32\lib-vc2015;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <SubSystem>Console</SubSystem>
+      <SubSystem>Windows</SubSystem>
       <IgnoreSpecificDefaultLibraries>libcmt.lib;MSVCRT.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
     </Link>
   </ItemDefinitionGroup>
